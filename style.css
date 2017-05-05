@@ -1,0 +1,33 @@
+body {
+	background-color: #fff;
+}
+
+article {
+    color: #444;
+    padding: 20px;
+    margin: 20px;
+    background-color: #eee;
+    border: solid 2px black;
+    width: 400px;
+}
+
+article q {
+	display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: dashed 5px red;
+}
+
+article h1 {
+    margin: 0;
+}
+
+article h2 {
+    font-size: 1.2rem;
+}
+
+article img {
+    width: 300px;
+}
