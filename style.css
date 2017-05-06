@@ -3,6 +3,8 @@ body {
 	font-family: 'Lato', sans-serif;
     font-size: 15px;
     line-height: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,12 +13,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 article {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: inline-block;
     color: #444;
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 0px;
     background-color: #eee;
-    border: solid 2px black;
-    width: 600px;
+    width: 50%;
 }
 
 article q {
@@ -38,4 +42,37 @@ article h2 {
 
 article img {
     width: 300px;
+}
+
+article p img {
+	width: 200px;
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+#contact {
+  padding: 20px;
+  margin: 20px;
+  background-color: #eee;
+  border: solid 2px black;
+  width: 600px;
+}
+
+#contact input {
+  margin: 10px 0;
+  display: block;
+}
+
+#master-footer {
+  overflow: hidden;
+  background: #fff;
+}
+
+#master-footer .column {
+  padding: 20px 0;
+  float: left;
+  width: 33.33%;
 }
